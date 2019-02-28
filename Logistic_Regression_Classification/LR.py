@@ -6,3 +6,5 @@
 # @Contact: haochen273@gmail.com
 
 import numpy as np
+
+print("666")
