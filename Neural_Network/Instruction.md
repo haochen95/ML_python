@@ -14,7 +14,16 @@ MINIST dataset contains image from 0-9 written by people with 28*28 pixels
 
 Input layer: flatten(28*28) = 784  
 Hidden layer: 30  
-Output layer: 10(0-9)  
+Output layer: 10(0-9) 
+
+# Back propagation  
+
+Goal of BP: compute the gradient of cost function  
+form of BP algorithm  
+
+1. **Input x**: Set the corresponding activation $$a^{1}$$  
+2. **Feedforward**: for each $$l=2,3,...L$$ compute $$z^{l} = w^{l}a^{l-1}+b{l}$$ and $$a^{l}=\theta(z^{l})$$  
+3. **Output error $$\delta^{l}$$**: Compute the vector $$\delta^{l}$$
 
 # Apply SGD on NN  
 
